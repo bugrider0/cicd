@@ -1,5 +1,4 @@
 name: test(name)
-run-name: test(run-name)
 
 on:
   push:
