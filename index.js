@@ -3,9 +3,9 @@ const express = require('express')
 const app = express()
 
 app.get('/', (req, res) => {
-    console.log(`-=+ Hello +=-`)
+    console.log(`----=+ Hello +=----`)
     res.status(200).json({
-        name: `Hossein Najafi`
+        name: `Hossein Najafi --- this is plus`
     })
 })
 
